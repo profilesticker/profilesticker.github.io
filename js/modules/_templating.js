@@ -70,7 +70,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.websiteHeader) {
         if (templateCacheHolder.websiteHeader == "" || templateCacheHolder.websiteHeader == null) {
-            $("#websiteHeaderViewTemplateHolder").load("partials/_websiteHeader.html #websiteHeaderPartial", function () {
+            $("#websiteHeaderViewTemplateHolder").load("partials/websiteHeader.html #websiteHeaderPartial", function () {
                 templateCacheHolder.websiteHeader = document.getElementById('websiteHeaderPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.websiteHeader, switchTemplateView, "#websiteHeaderView");
                 bindWebsiteHeaderTemplateJS();
