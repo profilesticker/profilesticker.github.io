@@ -1,0 +1,14 @@
+﻿<script id="overlayCategoryChoicesPartial" type="text/x-mustache">
+    <div class="row">
+        <div class="overlay-categories">
+            {{#categories}}
+            <span class="text-center">
+                <img class="category-item" onclick="reloadGrid('{{index}}', false);" src="{{icon}}" alt="{{title}}" title="{{title}}" data-toggle="tooltip" width="20" />
+            </span>
+            {{/categories}}
+            <span class="text-center">
+                <img class="category-item" onclick="reloadGrid('more-categories', false);" src="/images/categories/morecat.png" alt="More categories" data-toggle="tooltip" title="Click to view all categories" width="20" />
+            </span>
+        </div>
+    </div> 
+</script>

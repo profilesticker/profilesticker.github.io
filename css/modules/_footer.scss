@@ -1,0 +1,49 @@
+﻿@import "colors";
+
+.page-footer{
+    border-top: 4px solid $medium-color;
+    background-color: transparentize(darken($dark-gray, 10%), 0.1);
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    font-size: 12px;
+    color: $light-gray;
+}
+
+.page-footer a{
+    margin: 9px 9px 9px 0;
+}
+
+.page-footer a i{
+    color: lighten($dark-gray, 30%);
+    text-decoration: none;
+    @extend .transition-all;
+}
+
+.page-footer a i:hover{
+    color: lighten($dark-gray, 70%);
+}
+
+.page-footer span.copy{
+    white-space: nowrap;
+    font-size: small;
+}
+
+.page-footer .link-button{
+    font-size: 12px;
+}
+
+.page-footer .social-media{
+    width: 20px;
+    line-height: 44px;
+}
+
+.page-footer .row div:nth-child(2){
+    text-align: right;
+}
+
+.page-footer .footer-links{
+    margin-top:12px;
+    margin-bottom:12px;
+    line-height:21px;
+}

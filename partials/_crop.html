@@ -1,0 +1,37 @@
+﻿<script id="cropPartial" type="text/x-mustache">
+    <div class="animated slideInUp">
+        <div class="col-xs-12 text-center">
+            <div class="step-container">
+                <span class="step animated rotateIn">1</span>
+                <span class="step step-active animated flash">2</span>
+                <span class="step animated rotateIn">3</span>
+                <span class="step animated rotateIn">4</span>
+            </div>
+        </div>
+        <div class="contrast-row">
+            <div class="container">
+                <div class="row home-banner">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+                        <h3>Let's crop your picture</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container noncontrast-row">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <canvas id="cropCanvas" style="display:none;"></canvas>
+                    <div id="cropCanvasImageDiv" class="animated fadeIn"></div>
+                    <div id="result"></div>
+                    <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <button type="button" onclick="goBack();" class="btn button-inverse">Back</button>
+                    <button type="button" id="cropButton" class="btn button" disabled="disabled">Crop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>

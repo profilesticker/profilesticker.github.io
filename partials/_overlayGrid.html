@@ -1,0 +1,31 @@
+﻿<script id="overlayGridPartial" type="text/x-mustache">
+    {{#stickerNode}}
+    {{#isAd}}
+    <div class="sticker-block" id="a-{{id}}">
+        <div class="row">
+            <div class="sticker-image-over animated fadeIn" id="b-{{id}}">
+                <a href="{{url}}" target="_blank" rel="nofollow">
+                    <canvas id="{{id}}" class="sticker-image" title="{{title}}" data-toggle="tooltip" data-placement="auto top"></canvas>
+                </a>
+                <div>
+                    <div class="advt" data-toggle="tooltip" data-placement="auto top"><span>Ad</span></div>
+                    <div class="advt-info" data-toggle="tooltip" title="Clicking on the ad open the advertisers website in a new window. Ads help support the website." data-placement="auto top"><i class="mdi mdi-information-outline"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/isAd}}
+    {{^isAd}}
+    <div class="sticker-block" id="a-{{id}}">
+        <div class="row">
+            <div class="sticker-image-over animated fadeIn" id="b-{{id}}">
+                <canvas id="{{id}}" class="sticker-image" title="{{title}}" data-toggle="tooltip" data-placement="auto top" onclick="selectGrid('{{id}}');"></canvas>
+                <div>
+                    <div style="display:inline-flex" id="selected-{{id}}" class="selected-text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/isAd}}       
+    {{/stickerNode}}  
+</script>

@@ -1,0 +1,204 @@
+﻿/*
+ * Mobile resolutions
+ */
+
+/*
+ ******** 
+ ** XS **
+ ********
+ */
+@media (max-width: 543px) {
+
+    /* general */
+    .btn {
+        padding: 6px 20px;
+    }
+
+    .page-body {
+        padding-bottom: 50px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .page-heading h1 {
+        font-size: 24px;
+    }
+
+    /* footer */
+    .page-footer {
+        position: initial;
+    }
+
+    .page-footer, .page-footer a {
+        font-size: 14px;
+    }
+
+    .page-footer span.copy {
+        display: block;
+        margin-top: 9px;
+    }
+
+    .page-footer .row div:nth-child(2){
+        text-align: left;
+    }
+
+    /* home */
+    .home-banner h2 {
+        font-size: 32px;
+        margin-bottom: 9px;
+    }
+
+    .home-banner p {
+        font-size: 18px;
+    }
+
+    .featured-images img {
+        width: 90px;
+    }
+
+    .home-banner .mdi-facebook-box, .home-banner .mdi-upload {
+        font-size: 18px;
+        display: block;
+    }
+
+    .home-banner .facebook-button, .home-banner .button {
+        font-size: 14px;
+    }
+
+    /* overlay details */
+    .overlay-details h2 {
+        padding-left: 0;
+        margin-left: -13px;
+    }
+
+    /* overlay grid */
+    .sticker-image {
+        max-width: 100px;
+    }
+
+    .sticker-image-over {
+        height: 110px;
+    }
+
+    .sticker-block {
+        width: 45%;
+    }
+
+    /* more categories */
+    .more-categories h3 {
+        margin: 12px 0 18px 0;
+    }
+
+    .more-categories .more-categories-item img {
+        margin-bottom: initial;
+    }
+
+    /* misc */
+    .category-item {
+        width: 40px;
+    }
+
+    /* Canvas not supported */
+    .canvas-not-supported .browser-table {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        margin: 9px 0 9px 0;
+    }
+
+    .canvas-not-supported img {
+        width: 36px;
+    }
+
+    /**/
+    .coming-soon .block {
+        margin: 2px;
+    }
+}
+
+@media (max-width: 367px) {
+    .sticker-block {
+        width: 47%;
+    }
+
+    .sticker-image {
+        max-width: 100px;
+    }
+}
+/**/
+@media (min-width: 368px) and (max-width: 543px) {
+    .sticker-block {
+        width: 31%;
+    }
+
+    .sticker-image {
+        max-width: 96px;
+    }
+}
+
+/*
+ ******** 
+ ** SM **
+ ********
+ */
+@media (min-width: 544px) and (max-width: 767px) {
+    .featured-images img {
+        width: 100px;
+    }
+
+    .sticker-block {
+        width: 24%;
+    }
+
+    .sticker-image {
+        max-width: 140px;
+    }
+}
+
+/*
+ ******** 
+ ** MD **
+ ********
+ */
+@media (min-width: 768px) and (max-width: 991px) {
+    .featured-images img {
+        width: 130px;
+    }
+
+    .sticker-block {
+        width: 31%;
+    }
+
+    .sticker-image {
+        max-width: 120px;
+    }
+
+    #overlayMainCanvas {
+        max-width: 200px !important;
+    }
+
+    .sticker-image-over {
+        height: 140px;
+    }
+}
+
+/*
+ ******** 
+ ** LG **
+ ********
+ */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .featured-images img {
+        width: 140px;
+    }
+
+    .sticker-block {
+        width: 24%;
+    }
+
+    .sticker-image {
+        max-width: 150px;
+    }
+}

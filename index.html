@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<!-- Profile Sticker (c) 2017 Clyde D'Souza -->
+<html lang="en">
+<head>
+    <title>Profile Sticker | A new profile picture in just 4 steps</title>
+    
+    <!--Meta-->
+    <meta charset="utf-8" />
+    <meta name="description" content="Add a sticker to your profile picture using Profile Sticker to reflect how you're feeling today, something new and interesting or maybe anything just for fun.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="Profile Sticker, profile photo, profile overlay, Clyde D'Souza, web app, open source, fun stuff'" />
+    <meta name="author" content="Clyde D'Souza">
+    <link rel="canonical" href="http://profilesticker.net/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.txt">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <!--Open graph-->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Profile Sticker | A new profile picture in just 4 steps" />
+    <meta property="og:type" content="web app" />
+    <meta property="og:url" content="http://profilesticker.net/" />
+    <meta property="og:image" content="http://profilesticker.net/images/psassets/share-teaser.png" />
+    <meta property="og:site_name" content="Profile Sticker" />
+    <meta property="og:description" content="Add a sticker to your profile picture using Profile Sticker to reflect how you're feeling today, something new and interesting or maybe anything just for fun." />
+    <meta property="fb:admins" content="653803501477017" />
+    <meta name="twitter:site" content="Profile Sticker">
+    <meta name="twitter:creator" content="profilesticker">
+
+    <!--Icons, Chrome browser color change, Windows tile settings-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" href="images/icons/favicon-32x32.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="images/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/icons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon-180x180.png" />
+    <meta name="theme-color" content="#fdbe14">
+    <meta name="msapplication-TileColor" content="#fdbe14">
+    <meta name="msapplication-TileImage" content="images/icons/apple-touch-icon-180x180.png">
+    <meta name="msapplication-square70x70logo" content="images/icons/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="images/icons/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="images/icons/widetile.jpg" />
+    <meta name="msapplication-square310x310logo" content="images/icons/largetile.png" />
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PQGD5ZL');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQGD5ZL"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->    
+
+    <div class="ps-body">
+        <div class="page-body">       
+            <div>
+                <div id="websiteHeaderView"></div>
+                <div id="websiteHeaderViewTemplateHolder" style="display:none !important;"></div>
+            </div>
+            <div>
+                <div id="view"></div>
+                <div id="templateHolder" style="display:none !important;"></div>
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div id="footerView"></div>
+            <div id="footerTemplateHolder" style="display: none !important;"></div>
+        </div>
+
+        <div class="page-modals">
+            <!--General modal popup-->
+            <div class="modal fade" id="commonModal" tabindex="-1" role="dialog" aria-labelledby="commonModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="modalView"></div>
+                            <div id="modalHolder" style="display:none!important;"></div>
+                            <hr />
+                            <div class="text-right"><button type="button" class="btn button-inverse" data-dismiss="modal">Close</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Overlay details modal popup-->
+            <div class="modal fade" id="overlayDetailsModal" tabindex="-1" role="dialog" aria-labelledby="overlayDetailsModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="overlayDetailsModalView"></div>
+                            <div id="overlayDetailsModalHolder" style="display:none!important;"></div>                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JavaScript not supported view-->
+    <noscript>
+        Sorry, your browser does not support JavaScript!
+    </noscript>
+
+    <!--Hidden variables-->
+    <div id="fb-root"></div>
+    <canvas id="globalCanvas" style="display:none;"></canvas>
+    <input type="hidden" id="selectedOverlay" value=""/>
+    <input type="hidden" id="selectedCategory" value="" />
+    <input type="hidden" id="currentView" value=""/>  
+    <input type="hidden" id="homeViewErrorCounter" value="0" />  
+    <input type="hidden" id="hdnImageWidth" value="200" />
+    <input type="hidden" id="hdnImageHeight" value="200" />
+    <input type="hidden" id="hdnDisplayPreview" value="1" />
+
+    <!--Website loading-->
+    <div id="psLoading" class="ps-loading ps-loading-hidden">
+        <i class="mdi mdi-timer-sand mdi-48px animated wobble infinite"></i>
+    </div>
+      
+    <link href="css/main.min.css" rel="stylesheet" />
+    <script src="js/bundlev3.min.js"></script>
+</body>
+</html>

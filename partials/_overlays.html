@@ -1,0 +1,73 @@
+﻿<script id="overlaysPartial" type="text/x-mustache">
+    <div class="animated slideInUp">
+        <div class="col-xs-12 text-center">
+            <div class="step-container">
+                <span class="step animated rotateIn">1</span>
+                <span class="step animated rotateIn">2</span>
+                <span class="step step-active animated flash">3</span>
+                <span class="step animated rotateIn">4</span>
+            </div>
+        </div>
+        <div class="contrast-row">
+            <div class="container">
+                <div class="row home-banner">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+                        <h3>Now, select the sticker you want on your profile picture</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container noncontrast-row">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div id="allOverlays"></div>
+                            <canvas id="overlayMainCanvas" class="animated fadeIn"></canvas>                           
+                        </div>
+                        <div class="col-xs-12">
+                            <div id="previewedStickerView"></div>
+                            <div id="previewedStickerTemplateHolder" style="display: none !important;"></div>
+                            <br />
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row toggle-sticker">
+                                <div class="block-one">
+                                    <span>
+                                        <input type="checkbox" name="unitsToggle" id="unitsToggle">
+                                        <label for="unitsToggle"></label>
+                                    </span>
+                                </div>
+                                <div class="block-two">
+                                    <small>Preview sticker</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>                
+                <div class="col-xs-12 col-sm-8">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div><div id="overlayCategoryChoices"></div></div>
+                            <div id="overlayChoicesTemplateHolder" style="display:none;"></div>
+                        </div>
+                    </div>
+                    <div class="row overlay-grid-container">
+                        <div class="col-xs-12">
+                            <div><div id="overlayGrid"></div></div>
+                            <div id="overlayGridTemplateHolder" style="display:none;"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <br />
+                            <button type="button" onclick="goBack();" class="btn button-inverse">Back</button>
+                            <button type="button" onclick="goToDownload();" class="btn button">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</script>

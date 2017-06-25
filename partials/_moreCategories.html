@@ -1,0 +1,21 @@
+﻿<script id="moreCategoriesPartial" type="text/x-mustache">
+<div class="more-categories">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>All Categories</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+           <div class="more-categories-block">
+               {{#categories}}
+               <div class="col-xs-4 col-sm-2 more-categories-item text-center">
+                   <img class="category-item" onclick="selectCategory('{{index}}', 'true');" data-dismiss="modal" src="{{icon}}" alt="Profile Sticker category - {{title}}" width="20" />
+                   <div class="text-center"><small>{{title}}</small></div>
+               </div>
+               {{/categories}}
+           </div>
+        </div>
+    </div>    
+</div>
+</script>

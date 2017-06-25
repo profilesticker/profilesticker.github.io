@@ -1,0 +1,25 @@
+[
+  {
+    "outputFileName": "js/bundlev3.js",
+    "inputFiles": [
+      "js/vendor/jquery-1.10.2.min.js",
+      "js/vendor/mustache.js",
+      "js/vendor/modernizr.js",
+      "js/vendor/cropper.min.js",
+      "js/vendor/bootstrap.min.js",
+      "js/vendor/toastr.min.js",
+      "js/vendor/slick.min.js",
+      "js/modules/_appSettings.js",
+      "js/modules/_analytics.js",
+      "js/modules/_helpers.js",
+      "js/modules/_dataAccess.js",
+      "js/modules/_facebook.js",
+      "js/modules/_errors.js",
+      "js/modules/_fileUpload.js",
+      "js/modules/_overlayer.js",
+      "js/modules/_download.js",
+      "js/modules/_templating.js",
+      "js/main.js"
+    ]
+  }
+]

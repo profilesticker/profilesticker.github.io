@@ -1,0 +1,62 @@
+﻿@import "colors";
+
+/* general */
+#toast-container{
+    max-width: 40%;
+    min-width:20%;
+}
+
+#toast-container > div {
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 21px rgba(88, 88, 88, 0.27);
+    box-shadow: 0 0 21px rgba(88, 88, 88, 0.27);
+    opacity: 1 !important;
+    padding: 15px 15px 10px 15px;
+    width: 100%;
+    min-width:250px;
+}
+
+#toast-container > :hover, #toast-container>div:hover{
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.19);
+}
+
+.toast-message a:hover {
+    text-decoration: none;
+    color: $dark-gray;
+}
+
+#toast-container > .toast-info, #toast-container > .toast-error {
+    background-image: none !important;
+}
+
+/* info */
+.toast-info {
+    background-color: $medium-color;
+    color: $dark-gray;
+}
+
+.toast-message a.btn-info {
+   margin-top:9px;
+}
+
+#toast-container > .toast-info > div {
+    color: $dark-gray;
+}
+
+/* error */
+.toast-error {
+    background-color: $dark-color;
+    color: $light-color;
+}
+
+#toast-container > .toast-error > div {
+    color: $light-color;
+}
+
+@media (max-width: 480px) and (min-width: 241px){
+    #toast-container>div {
+        width: 96%;
+    }
+}
+

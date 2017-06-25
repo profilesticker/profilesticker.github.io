@@ -1,0 +1,44 @@
+﻿{
+  "featured": [
+    {
+      "id": "fi-1",
+      "text": "",
+      "image": "../images/featured/allef-vinicius.jpg"
+    },
+    {
+      "id": "fi-2",
+      "text": "",
+      "image": "../images/featured/andrew-branch.jpg"
+    },
+    {
+      "id": "fi-3",
+      "text": "",
+      "image": "../images/featured/brooke-cagle.jpg"
+    },
+    {
+      "id": "fi-4",
+      "text": "",
+      "image": "../images/featured/joshua-peacock.jpg"
+    },
+    {
+      "id": "fi-5",
+      "text": "",
+      "image": "../images/featured/sharon-christina.jpg"
+    },
+    {
+      "id": "fi-6",
+      "text": "",
+      "image": "../images/featured/priscilla-du-preez.jpg"
+    },
+    {
+      "id": "fi-7",
+      "text": "",
+      "image": "../images/featured/vinicius-amano.jpg"
+    },
+    {
+      "id": "fi-8",
+      "text": "",
+      "image": "../images/featured/william-stitt.jpg"
+    }
+  ]
+}

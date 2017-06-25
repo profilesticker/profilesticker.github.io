@@ -1,0 +1,28 @@
+﻿/*!
+ * Profile Sticker (c) 2017 Clyde D'Souza
+ * clydedsouza.net
+ * http://github.com/clydedz
+ */
+
+/* Reset CSS */
+@import "modules/reset";
+
+/* Vendor CSS */
+@import "vendor/bootstrap";
+@import "vendor/cropper";
+@import "vendor/toastr";
+@import "vendor/slick";
+@import "vendor/animations";
+
+/* Variables and site wide configs */
+@import "modules/fonts";
+@import "modules/colors";
+@import "modules/animation";
+
+/* Specific CSS */
+@import "modules/buttons";
+@import "modules/heading";
+@import "modules/footer";
+@import "modules/general";
+@import "modules/toast-notifications";
+@import "modules/mobile-layouts";

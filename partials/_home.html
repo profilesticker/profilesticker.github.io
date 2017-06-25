@@ -1,0 +1,76 @@
+﻿<script id="homePartial" type="text/x-mustache">
+    <div id="homePartialContents">
+        <div class="col-xs-12 text-center">
+            <div class="step-container">
+                <span class="step step-active animated flash">1</span>
+                <span class="step animated rotateIn">2</span>
+                <span class="step animated rotateIn">3</span>
+                <span class="step animated rotateIn">4</span>
+            </div>
+        </div>
+        <div class="contrast-row">          
+            <div class="container">              
+                <div class="row home-banner">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+                        <h3>Let's start by uploading your profile picture</h3>
+                        <input type="file" class="btn button hidden" id="uploadComputerImage" name="imageLoader" />
+                        <label for="uploadComputerImage" class="btn button animated slideInUp">
+                            <i class="mdi mdi-upload mdi-24px"></i>&nbsp;Upload an image from my Computer
+                        </label>
+                        <button onclick="getImageFromFacebook();" class="btn facebook-button animated slideInUp">
+                            <i class="mdi mdi-facebook-box"></i>&nbsp;Upload from Facebook
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h3>Create and tag your profile picture with #PsFeatureMe and get a chance to appear here</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                        <div id="featuredImagesView"></div>
+                        <div id="featuredImagesHolder" style="display: none !important;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3>Add stunning stickers to your profile picture like the ones above.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3 text-center">
+                    <img src="../images/psassets/step1.png" alt="Step 1 Upload a picture from your computer or Facebook" />
+                    <div class="howto-desc">
+                        <b>Step 1:</b> Upload your profile picture from your local computer or from Facebook.
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3 text-center">
+                    <img src="../images/psassets/step2.png" alt="Step 2 Crop your picture" />
+                    <div class="howto-desc">
+                        <b>Step 2:</b> Crop your profile picture to a perfect square.
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3 text-center">
+                    <img src="../images/psassets/step3.png" alt="Step 3 Select a sticker for your profile picture" />
+                    <div class="howto-desc">
+                        <b>Step 3:</b> Select a sticker for your profile picture from an ever growing list of fantastic designs.
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-3 text-center">
+                    <img src="../images/psassets/step4.png" alt="Step 4 Download your profile picture or post it to Facebook" />
+                    <div class="howto-desc">
+                        <b>Step 4:</b> Download your profile picture to your local computer or post it directly to Facebook.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>

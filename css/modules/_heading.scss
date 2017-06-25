@@ -1,0 +1,64 @@
+﻿@import "colors";
+@import "fonts";
+
+.page-heading{
+    padding: 9px 0; 
+    color: $dark-gray;
+}
+
+.page-heading img{
+    width:62px;
+    cursor: pointer;
+}
+
+.page-heading p{
+    padding: 18px 0;
+    font-size: 20px;
+    font-family: $primary-font;
+}
+
+.page-heading .social-media{
+    cursor: pointer;
+    margin-left: 9px;
+}
+
+.page-heading small{
+    font-size: small;
+}
+
+.page-heading .social-media .mdi-facebook-box, 
+.page-heading .social-media .mdi-twitter,
+.page-heading .social-media .mdi-google-plus,
+.page-heading .social-media .mdi-linkedin-box{
+    color: lighten($dark-gray, 20%);
+    @extend .transition-all;
+}
+
+.page-heading .social-media .mdi-facebook-box:hover{
+    color: #3b5998;
+}
+
+.page-heading .social-media .mdi-twitter:hover{
+    color: #0084b4;
+}
+
+.page-heading .social-media .mdi-google-plus:hover{
+    color: #d34836;
+}
+
+.page-heading .social-media .mdi-linkedin-box:hover{
+    color: #0077B5;
+}
+
+.contrast-row{
+    background-color: lighten($medium-color, 10%);
+    border-top: 4px solid $dark-gray;
+    padding: 36px 15px;
+}
+
+.contrast-row h1, .contrast-row h2{
+    color: $dark-gray;
+}
+
+
+

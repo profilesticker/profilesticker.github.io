@@ -1,0 +1,41 @@
+﻿<div id="downloadPartial">
+    <div class="animated slideInUp">
+        <div class="col-xs-12 text-center">
+            <div class="step-container">
+                <span class="step animated rotateIn">1</span>
+                <span class="step animated rotateIn">2</span>
+                <span class="step animated rotateIn">3</span>
+                <span class="step step-active animated flash">4</span>
+            </div>
+        </div>
+        <div class="contrast-row">
+            <div class="container">
+                <div class="row home-banner">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+                        <h3>That's it! Download or post your profile picture with the sticker</h3>
+                        <a id="downloadImageButton" onclick="downloadImageToComputer();" class="btn button animated slideInUp">
+                            <i class="mdi mdi-download mdi-24px"></i>&nbsp;Download
+                        </a>
+                        <a onclick="postImageToFacebook();" class="btn facebook-button animated slideInUp">
+                            <i class="mdi mdi-facebook-box mdi-24px"></i>&nbsp;Post it to Facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container noncontrast-row">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+                    <canvas id="downloadPreviewCanvas"></canvas>
+                    <div id="downloadPreviewAllOverlays"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+                    <button type="button" onclick="goBack();" class="btn button-inverse">Back</button>
+                    <button type="button" onclick="switchToHomePage();" class="btn button-inverse">Start over again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

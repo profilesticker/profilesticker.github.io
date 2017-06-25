@@ -1,0 +1,23 @@
+﻿/*
+ * colors must contain color variable and general site wide
+ * color configurations
+ */
+
+$yellow: #edcf2e;
+$blue: #64b9ee;
+$dark-color: #bd3230;
+$medium-color: #fdbe14;
+$light-gray: #f1f1f1;
+$dark-gray: #484848;
+$light-color: white;
+$facebook-color: #3b579d;
+
+body{
+    background-color: $light-gray;
+    color: $dark-gray;
+}
+
+h1, h2, h3,
+.h1, .h2, .h3{
+    color: $dark-gray;
+}

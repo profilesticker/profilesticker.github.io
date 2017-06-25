@@ -1,0 +1,615 @@
+﻿{
+  "categories": [
+    {
+      "title": "Emoji's",
+      "icon": "/images/categories/smiley.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/emoji/carnival.png",
+            "title": "Carnival",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/advertisements/advertisehere-learn.png",
+            "title": "Take this ad spot - Learn how",
+            "designedBy": "clydedsouza",
+            "url": "https://github.com/profilesticker/profilesticker.github.io/wiki/Advertise",
+            "isAd": true
+          },
+          {
+            "image": "/images/stickers/emoji/inlove.png",
+            "title": "In Love",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/marryme.png",
+            "title": "Marry Me",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Events",
+      "icon": "/images/categories/events.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/events/carnival.png",
+            "title": "Carnival",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/events/tomatino.png",
+            "title": "Tomatino",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Popular Apps",
+      "icon": "/images/categories/apps.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/apps/candycrush.png",
+            "title": "Candy Crush",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/apps/pacman.png",
+            "title": "Pacman",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/advertisements/grabs-attention.png",
+            "title": "This post grabs attention. So can yours. Find out more.",
+            "designedBy": "clydedsouza",
+            "url": "https://github.com/profilesticker/profilesticker.github.io/wiki/Advertise",
+            "isAd": true
+          },
+          {
+            "image": "/images/stickers/apps/whenucurcrush.png",
+            "title": "When You See Your Crush",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/apps/subwaysurf.png",
+            "title": "Subway Surf",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/apps/hellotalkingtom.png",
+            "title": "Hello Tom",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Brands",
+      "icon": "/images/categories/brands.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/brands/followme-facebook.png",
+            "title": "Follow me on Facebook",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/brands/followme-instagram.png",
+            "title": "Follow me on Instagram",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/brands/followme-twitter.png",
+            "title": "Follow me on Twitter",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/brands/followme-youtube.png",
+            "title": "Follow me on YouTube",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/brands/mcdonalds.png",
+            "title": "I'm lovin it always",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/brands/followme-twitter2.png",
+            "title": "Follow me on Twitter II",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Best of Marvel",
+      "icon": "/images/categories/marvel.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/marvel/starklord.png",
+            "title": "Stark Lord",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/marvel/ironman.png",
+            "title": "Iron Man Reflection",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/marvel/spiderman.png",
+            "title": "Spiderman",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/marvel/captainamerica.png",
+            "title": "Captains Shield",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/marvel/spidermanframe.png",
+            "title": "A frame full of Spidermans",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/marvel/spiderman-homecoming.png",
+            "title": "Spiderman: Homecoming",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Profile Sticker",
+      "icon": "/images/categories/profilesticker.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/profilesticker/psadmirer.png",
+            "title": "Profile Sticker admirer",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/profilesticker/pscontri.png",
+            "title": "Profile Sticker contributor",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/profilesticker/psfblike.png",
+            "title": "Profile Sticker on Facebook",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/profilesticker/psinsta.png",
+            "title": "Profile Sticker on Instagram",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/profilesticker/psihrt.png",
+            "title": "I <3 Profile Sticker",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Hastags",
+      "icon": "/images/categories/hashtags.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/hashtags/lifegoals.png",
+            "title": "Life goals",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/hashtags/standuptobullying.png",
+            "title": "Stand up to bullying",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/hashtags/throwbackthursday.png",
+            "title": "Throwback Thursday",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Mr. Bean",
+      "icon": "/images/categories/mrbean.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/mrbean/mrbeanbear.png",
+            "title": "Mr Bean and his bear",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/mrbean/mrbeanfish.png",
+            "title": "Mr. Bean saves the fish",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/mrbean/mrbeannfly.png",
+            "title": "Mr. Bean drives off",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "TV Hits",
+      "icon": "/images/categories/tv.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "../images/stickers/tv/friends-forever.png",
+            "title": "Friends Forever",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/tv/psyched.png",
+            "title": "Psyched",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Movies",
+      "icon": "/images/categories/cinema.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "../images/stickers/movies/titanic.png",
+            "title": "Titanic",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/movies/baywatch.png",
+            "title": "I'm watching you",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/movies/nobodyknows.png",
+            "title": "Nobody knows",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Spotify Hits",
+      "icon": "/images/categories/spotify.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "../images/stickers/spotify/attention.png",
+            "title": "I need attention",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/spotify/thatswhatilike.png",
+            "title": "That's what I like",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Netflix Hits",
+      "icon": "/images/categories/netflix.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "../images/stickers/netflix/13reasonswhy.png",
+            "title": "13 Reasons Why",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/netflix/oitnb.png",
+            "title": "Orange Is The New Black",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Causes",
+      "icon": "/images/categories/wwf.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/npo/cruk.png",
+            "title": "Cancer Research UK",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/npo/onedrop.png",
+            "title": "One Drop",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/npo/oxfam.png",
+            "title": "Oxfam",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Trending",
+      "icon": "/images/categories/flame.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "/images/stickers/trending/installation.png",
+            "title": "The Installation",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/itsagirl.png",
+            "title": "Its a girl",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/willumarryme.png",
+            "title": "Will you marry me?",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/happybday.png",
+            "title": "Happy Birthday",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/itsaboy.png",
+            "title": "Its a boy",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/youtube-video.png",
+            "title": "YouTube video",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/pencilart.png",
+            "title": "Pencil Art",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/justmarried.png",
+            "title": "Just Married",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/justmarried2.png",
+            "title": "Just Married (Vintage)",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/trending/polaroid.png",
+            "title": "Polaroid",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/video.png",
+            "title": "Video call",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/swagglasses.png",
+            "title": "Swag life",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/trending/pipeline.png",
+            "title": "Pipeline",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/trending/side2sideframe.png",
+            "title": "Side 2 Side Cellar",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Festivals",
+      "icon": "/images/categories/festivals.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "../images/stickers/festivals/christmas.png",
+            "title": "Merry Christmas",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/festivals/halloween.png",
+            "title": "Happy Halloween",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/festivals/diwali.png",
+            "title": "Happy Diwali",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/festivals/easter.png",
+            "title": "Happy Easter",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/festivals/thanksgiving.png",
+            "title": "Happy Thanksgiving",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Zodiac Signs",
+      "icon": "/images/categories/zodiac.png",
+      "stickers": {
+        "stickerNode": [
+          {
+            "image": "../images/stickers/zodiac/aquarius.png",
+            "title": "Like an Aquarius",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/zodiac/gemini.png",
+            "title": "Like a Gemini",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/zodiac/pisces.png",
+            "title": "Like a Pisces",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          }
+        ]
+      }
+    }
+  ]
+}
