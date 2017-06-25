@@ -19,7 +19,7 @@ function sendNavigationEventTracking(pageTo, elementLocation) {
     /// <summary>Send navigation based event tracking data to Google Analytics.</summary>
     /// <param name="pageTo" type="string">The page being redirected to.</param>  
     /// <param name="elementLocation" type="string">The navigation link's location in the website.</param>  
-    // _sendGoogleEventTracking(categoryEventTracking.navigation, "To: " + pageTo, "From: " + elementLocation);
+    _sendGoogleEventTracking(categoryEventTracking.navigation, "To: " + pageTo, "From: " + elementLocation);
 }
 
 function sendOutboundNavigationEventTracking(e) {
