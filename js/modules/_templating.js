@@ -55,7 +55,7 @@ function switchTemplate(templateName) {
     /// <param name="templateName" type="string">The template to be loaded.</param> 
     if (templateName == templateNames.home) {
         if (templateCacheHolder.home == "" || templateCacheHolder.home == null) {
-            $("#templateHolder").load("partials/_home.html #homePartial", function () {
+            $("#templateHolder").load("partials/home.html #homePartial", function () {
                 templateCacheHolder.home = document.getElementById('homePartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.home, switchTemplateView, "#view");
                 setCurrentPageView(templateNames.home);
@@ -83,7 +83,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.featuredImages) {
         if (templateCacheHolder.featuredImages == "" || templateCacheHolder.featuredImages == null) {
-            $("#featuredImagesHolder").load("partials/_featuredImages.html #featuredImagesPartial", function () {
+            $("#featuredImagesHolder").load("partials/featuredImages.html #featuredImagesPartial", function () {
                 templateCacheHolder.featuredImages = document.getElementById('featuredImagesPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.featuredImages, featuredImageData, "#featuredImagesView");
                 bindFeaturedImagesTemplateJS();
@@ -96,7 +96,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.footer) {
         if (templateCacheHolder.footer == "" || templateCacheHolder.footer == null) {
-            $("#footerTemplateHolder").load("partials/_footer.html #footerPartial", function () {
+            $("#footerTemplateHolder").load("partials/footer.html #footerPartial", function () {
                 templateCacheHolder.footer = document.getElementById('footerPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.footer, featuredImageData, "#footerView");
                 bindFooterTemplateJS();
@@ -109,7 +109,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.crop) {
         if (templateCacheHolder.crop == "" || templateCacheHolder.crop == null) {
-            $("#templateHolder").load("partials/_crop.html #cropPartial", function () {
+            $("#templateHolder").load("partials/crop.html #cropPartial", function () {
                 templateCacheHolder.crop = document.getElementById('cropPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.crop, switchTemplateView, "#view");
                 setCurrentPageView(templateNames.crop);
@@ -124,7 +124,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.overlay) {
         if (templateCacheHolder.overlay == "" || templateCacheHolder.overlay == null) {
-            $("#templateHolder").load("partials/_overlays.html #overlaysPartial", function () {
+            $("#templateHolder").load("partials/overlays.html #overlaysPartial", function () {
                 templateCacheHolder.overlay = document.getElementById('overlaysPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.overlay, switchTemplateView, "#view");
                 setCurrentPageView(templateNames.overlay);
@@ -140,7 +140,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.previewedSticker) {
         if (templateCacheHolder.previewedSticker == "" || templateCacheHolder.previewedSticker == null) {
-            $("#previewedStickerTemplateHolder").load("partials/_previewedSticker.html #previewedStickerPartial", function () {
+            $("#previewedStickerTemplateHolder").load("partials/previewedSticker.html #previewedStickerPartial", function () {
                 templateCacheHolder.previewedSticker = document.getElementById('previewedStickerPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.previewedSticker, switchTemplateView, "#previewedStickerView");
                 bindPreviewedStickerTemplateJS();
@@ -153,7 +153,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.download) {
         if(templateCacheHolder.download == "" || templateCacheHolder.download == null){
-            $("#templateHolder").load("partials/_download.html #downloadPartial", function () {
+            $("#templateHolder").load("partials/download.html #downloadPartial", function () {
                 templateCacheHolder.download = document.getElementById('downloadPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.download, switchTemplateView, "#view");
                 setCurrentPageView(templateNames.download);
@@ -168,7 +168,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.categories) {
         if (templateCacheHolder.categories == "" || templateCacheHolder.categories == null) {
-            $("#overlayChoicesTemplateHolder").load("partials/_overlayCategoryChoices.html #overlayCategoryChoicesPartial", function () {
+            $("#overlayChoicesTemplateHolder").load("partials/overlayCategoryChoices.html #overlayCategoryChoicesPartial", function () {
                 templateCacheHolder.categories = document.getElementById('overlayCategoryChoicesPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.categories, printCategoriesView, "#overlayCategoryChoices");
                 bindCategoriesTemplateJS();
@@ -181,7 +181,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.moreCategories) {
         if (templateCacheHolder.moreCategories == "" || templateCacheHolder.moreCategories == null) {
-            $("#modalHolder").load("partials/_moreCategories.html #moreCategoriesPartial", function () {
+            $("#modalHolder").load("partials/moreCategories.html #moreCategoriesPartial", function () {
                 templateCacheHolder.moreCategories = document.getElementById('moreCategoriesPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.moreCategories, profileStickerData, "#modalView");
                 bindMoreCategoriesTemplateJS();
@@ -194,7 +194,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.overlayGrid) {
         if (templateCacheHolder.overlayGrid == "" || templateCacheHolder.overlayGrid == null) {
-            $("#overlayGridTemplateHolder").load("partials/_overlayGrid.html #overlayGridPartial", function () {
+            $("#overlayGridTemplateHolder").load("partials/overlayGrid.html #overlayGridPartial", function () {
                 templateCacheHolder.overlayGrid = document.getElementById('overlayGridPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.overlayGrid, switchTemplateView, "#overlayGrid");
                 bindOverlayGridTemplateJS();
@@ -210,7 +210,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.about) {
         if (templateCacheHolder.about == "" || templateCacheHolder.about == null) {
-            $("#modalHolder").load("partials/_about.html #aboutPartial", function () {
+            $("#modalHolder").load("partials/about.html #aboutPartial", function () {
                 templateCacheHolder.about = document.getElementById('aboutPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.about, switchTemplateView, "#modalView");
             });
@@ -221,7 +221,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.legal) {
         if (templateCacheHolder.legal == "" || templateCacheHolder.legal == null) {
-            $("#modalHolder").load("partials/_legal.html #legalPartial", function () {
+            $("#modalHolder").load("partials/legal.html #legalPartial", function () {
                 templateCacheHolder.legal = document.getElementById('legalPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.legal, switchTemplateView, "#modalView");
             });
@@ -232,7 +232,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.canvasNotSupported) {
         if (templateCacheHolder.canvasNotSupported == "" || templateCacheHolder.canvasNotSupported == null) {
-            $("#templateHolder").load("partials/_canvasNotSupported.html #canvasNotSupportedPartial", function () {
+            $("#templateHolder").load("partials/canvasNotSupported.html #canvasNotSupportedPartial", function () {
                 templateCacheHolder.canvasNotSupported = document.getElementById('canvasNotSupportedPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.canvasNotSupported, switchTemplateView, "#view");
                 setCurrentPageView(templateNames.canvasNotSupported);
@@ -245,7 +245,7 @@ function switchTemplate(templateName) {
     }
     else if (templateName == templateNames.comingSoon) {
         if (templateCacheHolder.comingSoon == "" || templateCacheHolder.comingSoon == null) {
-            $("#templateHolder").load("partials/_comingSoon.html #comingSoonPartial", function () {
+            $("#templateHolder").load("partials/comingSoon.html #comingSoonPartial", function () {
                 templateCacheHolder.comingSoon = document.getElementById('comingSoonPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.comingSoon, switchTemplateView, "#view");
                 setCurrentPageView(templateNames.comingSoon);
