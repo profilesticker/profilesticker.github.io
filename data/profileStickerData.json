@@ -199,6 +199,13 @@
             "isAd": false
           },
           {
+            "image": "/images/stickers/advertisements/advertisehere-learn.png",
+            "title": "Take this ad spot - Learn how",
+            "designedBy": "clydedsouza",
+            "url": "https://github.com/profilesticker/profilesticker.github.io/wiki/Advertise",
+            "isAd": true
+          },
+          {
             "image": "/images/stickers/marvel/spiderman-homecoming.png",
             "title": "Spiderman: Homecoming",
             "designedBy": "clydedsouza",
@@ -395,6 +402,13 @@
             "isAd": false
           },
           {
+            "image": "/images/stickers/advertisements/grabs-attention.png",
+            "title": "This post grabs attention. So can yours. Find out more.",
+            "designedBy": "clydedsouza",
+            "url": "https://github.com/profilesticker/profilesticker.github.io/wiki/Advertise",
+            "isAd": true
+          },
+          {
             "image": "../images/stickers/netflix/oitnb.png",
             "title": "Orange Is The New Black",
             "designedBy": "clydedsouza",
@@ -438,6 +452,41 @@
       "icon": "/images/categories/flame.png",
       "stickers": {
         "stickerNode": [
+          {
+            "image": "/images/stickers/trending/oneday.png",
+            "title": "One day to go",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/twoday.png",
+            "title": "Two days to go",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/threedays.png",
+            "title": "Three days to go",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/fourday.png",
+            "title": "Four days to go",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/fiveday.png",
+            "title": "Five days to go",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
           {
             "image": "/images/stickers/trending/installation.png",
             "title": "The Installation",

@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <title>Profile Sticker | A new profile picture in just 4 steps</title>
-    
+
     <!--Meta-->
     <meta charset="utf-8" />
     <meta name="description" content="Add a sticker to your profile picture using Profile Sticker to reflect how you're feeling today, something new and interesting or maybe anything just for fun.">
@@ -17,7 +17,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
+
     <!--Open graph-->
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="Profile Sticker | A new profile picture in just 4 steps" />
@@ -27,6 +27,7 @@
     <meta property="og:site_name" content="Profile Sticker" />
     <meta property="og:description" content="Add a sticker to your profile picture using Profile Sticker to reflect how you're feeling today, something new and interesting or maybe anything just for fun." />
     <meta property="fb:admins" content="653803501477017" />
+    <meta property="fb:app_id" content="653803501477017" />
     <meta name="twitter:site" content="Profile Sticker">
     <meta name="twitter:creator" content="profilesticker">
 
@@ -57,11 +58,14 @@
 
     <!-- Google Tag Manager -->
     <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PQGD5ZL');</script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PQGD5ZL');</script>
     <!-- End Google Tag Manager -->
 </head>
 <body>
@@ -70,10 +74,10 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQGD5ZL"
                 height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
-    <!-- End Google Tag Manager (noscript) -->    
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="ps-body">
-        <div class="page-body">       
+        <div class="page-body">
             <div>
                 <div id="websiteHeaderView"></div>
                 <div id="websiteHeaderViewTemplateHolder" style="display:none !important;"></div>
@@ -109,7 +113,7 @@
                     <div class="modal-content">
                         <div class="modal-body">
                             <div id="overlayDetailsModalView"></div>
-                            <div id="overlayDetailsModalHolder" style="display:none!important;"></div>                         
+                            <div id="overlayDetailsModalHolder" style="display:none!important;"></div>
                         </div>
                     </div>
                 </div>
@@ -125,10 +129,10 @@
     <!--Hidden variables-->
     <div id="fb-root"></div>
     <canvas id="globalCanvas" style="display:none;"></canvas>
-    <input type="hidden" id="selectedOverlay" value=""/>
+    <input type="hidden" id="selectedOverlay" value="" />
     <input type="hidden" id="selectedCategory" value="" />
-    <input type="hidden" id="currentView" value=""/>  
-    <input type="hidden" id="homeViewErrorCounter" value="0" />  
+    <input type="hidden" id="currentView" value="" />
+    <input type="hidden" id="homeViewErrorCounter" value="0" />
     <input type="hidden" id="hdnImageWidth" value="200" />
     <input type="hidden" id="hdnImageHeight" value="200" />
     <input type="hidden" id="hdnDisplayPreview" value="1" />
@@ -137,8 +141,56 @@
     <div id="psLoading" class="ps-loading ps-loading-hidden">
         <i class="mdi mdi-timer-sand mdi-48px animated wobble infinite"></i>
     </div>
-      
+
     <link href="css/main.min.css" rel="stylesheet" />
     <script src="js/bundlev3.min.js"></script>
+
+    <!--Schema org-->
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Profile Sticker",
+        "url": "http://www.profilesticker.net",
+        "logo": "http://www.profilesticker.net/images/logo/ProfileStickerLogo.png",
+        "sameAs": [
+        "http://www.facebook.com/profilesticker",
+        "http://instagram.com/profilesticker",
+        "http://twitter.com/profilesticker",
+        "https://www.youtube.com/channel/UCtUfowC9rS6nKNw_aS6Tdag",
+        "https://www.linkedin.com/company/profilesticker"
+        ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Profile Sticker",
+        "alternateName": "Profile Sticker | Add a sticker to your profile picture in just 4 steps",
+        "url": "http://www.profilesticker.net"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org/",
+        "@type": "Product",
+        "name": "Profile Sticker",
+        "url": "http://www.profilesticker.net",
+        "image": "http://www.profilesticker.net/images/logo/ProfileStickerLogo.png",
+        "description": "Profile Sticker | Add a sticker to your profile picture in just 4 steps",
+        "brand": {
+        "@type": "Thing",
+        "name": "Profile Sticker"
+        },
+        "sameAs": [
+        "http://www.facebook.com/profilesticker",
+        "http://instagram.com/profilesticker",
+        "http://twitter.com/profilesticker",
+        "https://www.youtube.com/channel/UCtUfowC9rS6nKNw_aS6Tdag",
+        "https://www.linkedin.com/company/profilesticker"
+        ]
+        }
+    </script>
 </body>
 </html>
