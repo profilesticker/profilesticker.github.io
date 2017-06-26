@@ -2001,7 +2001,7 @@ function loadLegalModal() {
 
 function switchToHomePage() {
     /// <summary>Method to load the home page.</summary>
-    if (getCurrentPageView() != "home") {
+    if (getCurrentPageView() != "home" && appSettings.websiteReleased) {
         switchTemplate("home");
         sendInteractionEventTracking("Profile Sticker logo", "Navigate to the home page view");
     }
