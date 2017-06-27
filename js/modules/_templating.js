@@ -248,11 +248,13 @@ function switchTemplate(templateName) {
             $("#templateHolder").load("partials/comingSoon.html #comingSoonPartial", function () {
                 templateCacheHolder.comingSoon = document.getElementById('comingSoonPartial').innerHTML;
                 extendedTemplateGeneration(templateCacheHolder.comingSoon, switchTemplateView, "#view");
+                hideSiteLoading();
                 setCurrentPageView(templateNames.comingSoon);
             });
         }
         else {
             extendedTemplateGeneration(templateCacheHolder.comingSoon, switchTemplateView, "#view");
+            hideSiteLoading();
             setCurrentPageView(templateNames.comingSoon);
         }
     }

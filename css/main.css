@@ -5720,7 +5720,7 @@ h1, h2, h3,
 .modal-scrollable-body .social-media .mdi-google-plus,
 .modal-scrollable-body .social-media .mdi-linkedin-box,
 .modal-scrollable-body .social-media .mdi-youtube-play,
-.modal-scrollable-body .social-media .mdi-instagram, .ps-loading, .ps-loading-small {
+.modal-scrollable-body .social-media .mdi-instagram {
   transition: all .2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -5779,7 +5779,7 @@ h1, h2, h3,
 .modal-scrollable-body .social-media .mdi-google-plus,
 .modal-scrollable-body .social-media .mdi-linkedin-box,
 .modal-scrollable-body .social-media .mdi-youtube-play,
-.modal-scrollable-body .social-media .mdi-instagram, .ps-loading, .ps-loading-small {
+.modal-scrollable-body .social-media .mdi-instagram {
   transition: all .2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -6092,10 +6092,10 @@ h1, h2, h3,
 .page-body {
   padding-bottom: 100px; }
 
-.ps-body {
-  position: relative;
-  height: 100vh; }
-
+/*.ps-body {
+    position: relative;
+    height: 100vh;
+}*/
 .noncontrast-row {
   padding-top: 18px;
   padding-bottom: 18px; }
@@ -6355,45 +6355,6 @@ img {
 #downloadPreviewCanvas {
   max-width: 250px;
   margin-bottom: 24px; }
-
-/*
- *************
- ** Loading **
- *************
- */
-.ps-loading {
-  background-color: #fdbe14;
-  opacity: 0.95;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: block;
-  z-index: 1000000; }
-
-.ps-loading i {
-  position: absolute;
-  margin-left: 48vw;
-  top: 48vh;
-  width: 48px; }
-
-.ps-loading-small {
-  background-color: #fdcc47;
-  opacity: 0.95;
-  height: 150px;
-  width: 150px;
-  display: block;
-  z-index: 1000000; }
-
-.ps-loading-small i {
-  width: 24px;
-  position: absolute;
-  margin-left: 32%;
-  top: 38%; }
-
-.ps-loading-hidden {
-  display: none; }
 
 /*
  **************************

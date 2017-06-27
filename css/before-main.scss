@@ -1,3 +1,50 @@
-﻿body{
+﻿/* Variables and site wide configs */
+@import "modules/fonts";
+@import "modules/colors";
+@import "modules/animation";
 
+/*
+ *************
+ ** Loading **
+ *************
+ */
+.ps-loading {
+    background-color: $medium-color;
+    opacity: 0.95;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    z-index: 1000000;
+    @extend .transition-all;
+}
+
+.ps-loading i {
+    position: absolute;
+    margin-left: 48vw;
+    top: 48vh;
+    width: 48px;
+}
+
+.ps-loading-small {
+    background-color: lighten($medium-color, 10%);
+    opacity: 0.95;
+    height: 150px;
+    width: 150px;
+    display: block;
+    z-index: 1000000;
+    @extend .transition-all;
+}
+
+.ps-loading-small i {
+    width: 24px;
+    position: absolute;
+    margin-left: 32%;
+    top: 38%;
+}
+
+.ps-loading-hidden {
+    display: none;
 }
