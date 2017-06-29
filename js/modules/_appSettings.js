@@ -21,9 +21,9 @@ var appSettings = {
     categoriesBreakpointXLg: 2100,
     categoriesBreakpointXLgValue: 10,
     maxHomePageClicks: 3,
-    websiteReleased: true,
+    websiteReleased: false,
     randomStringLength: 6,
-    fbAppId: 1932663840336823
+    fbAppId: 653803501477017
 };
 
 // Collection of different messages
