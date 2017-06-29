@@ -32,6 +32,69 @@
             "designedBy": "clydedsouza",
             "url": "",
             "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/alien.png",
+            "title": "An Alien",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/somethingsfishy.png",
+            "title": "Somethings Fishy",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/feelingblessed.png",
+            "title": "Feeling Blessed",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/feelinghugry.png",
+            "title": "Feeling Hungry",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/feelingrich.png",
+            "title": "Feeling Rich",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/feelingsad.png",
+            "title": "Feeling Sad",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/feelingscared.png",
+            "title": "Feeling Spooked",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/feelingsleep.png",
+            "title": "Feeling Sleepy",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/emoji/heyangel.png",
+            "title": "Hey Angel!",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
           }
         ]
       }
@@ -334,6 +397,13 @@
             "designedBy": "clydedsouza",
             "url": "",
             "isAd": false
+          },
+          {
+            "image": "../images/stickers/tv/bbt.png",
+            "title": "Big Bang Theory",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
           }
         ]
       }
@@ -385,6 +455,13 @@
             "designedBy": "clydedsouza",
             "url": "",
             "isAd": false
+          },
+          {
+            "image": "../images/stickers/spotify/kissmequick.png",
+            "title": "Kiss Me Quick",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
           }
         ]
       }
@@ -411,6 +488,13 @@
           {
             "image": "../images/stickers/netflix/oitnb.png",
             "title": "Orange Is The New Black",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "../images/stickers/netflix/houseofcards.png",
+            "title": "House Of Cards",
             "designedBy": "clydedsouza",
             "url": "",
             "isAd": false
@@ -504,6 +588,13 @@
           {
             "image": "/images/stickers/trending/willumarryme.png",
             "title": "Will you marry me?",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/trending/mothersday.png",
+            "title": "Happy Mother's Day",
             "designedBy": "clydedsouza",
             "url": "",
             "isAd": false
@@ -637,22 +728,85 @@
       "stickers": {
         "stickerNode": [
           {
-            "image": "../images/stickers/zodiac/aquarius.png",
+            "image": "/images/stickers/zodiac/aquarius.png",
             "title": "Like an Aquarius",
             "designedBy": "clydedsouza",
             "url": "",
             "isAd": false
           },
           {
-            "image": "../images/stickers/zodiac/gemini.png",
+            "image": "/images/stickers/zodiac/gemini.png",
             "title": "Like a Gemini",
             "designedBy": "clydedsouza",
             "url": "",
             "isAd": false
           },
           {
-            "image": "../images/stickers/zodiac/pisces.png",
+            "image": "/images/stickers/zodiac/pisces.png",
             "title": "Like a Pisces",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/aries.png",
+            "title": "Like an Aries",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/cancer.png",
+            "title": "Like a Cancerian",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/capricorn.png",
+            "title": "Like a Capricorn",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/leo.png",
+            "title": "Like a Leo",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/libra.png",
+            "title": "Like a Libra",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/sagi.png",
+            "title": "Like a Sagittarius",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/scorpio.png",
+            "title": "Like a Scorpio",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/taurus.png",
+            "title": "Like a Taurus",
+            "designedBy": "clydedsouza",
+            "url": "",
+            "isAd": false
+          },
+          {
+            "image": "/images/stickers/zodiac/virgo.png",
+            "title": "Like a Virgo",
             "designedBy": "clydedsouza",
             "url": "",
             "isAd": false
