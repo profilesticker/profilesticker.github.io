@@ -5731,12 +5731,12 @@ h1, h2, h3,
   filter: alpha(opacity=30);
   opacity: 0.3; }
 
-.off-focus-light, .sticker-image {
+.off-focus-light {
   zoom: 1;
   filter: alpha(opacity=80);
   opacity: 0.8; }
 
-.off-focus-dark, .sticker-image:hover, .sticker-image:focus {
+.off-focus-dark {
   zoom: 1;
   filter: alpha(opacity=100);
   opacity: 1; }
@@ -5790,12 +5790,12 @@ h1, h2, h3,
   filter: alpha(opacity=30);
   opacity: 0.3; }
 
-.off-focus-light, .sticker-image {
+.off-focus-light {
   zoom: 1;
   filter: alpha(opacity=80);
   opacity: 0.8; }
 
-.off-focus-dark, .sticker-image:hover, .sticker-image:focus {
+.off-focus-dark {
   zoom: 1;
   filter: alpha(opacity=100);
   opacity: 1; }
@@ -6172,7 +6172,14 @@ img {
 
 .sticker-image {
   max-width: 150px;
-  cursor: pointer; }
+  cursor: pointer;
+  /*@extend .off-focus-light;*/
+  outline: 0; }
+
+.sticker-image:hover, .sticker-image:focus {
+  outline: 1px solid #bd3230;
+  outline-offset: 2px;
+  outline-style: dotted; }
 
 .sticker-image-over {
   position: relative;
@@ -6199,10 +6206,11 @@ img {
   background: rgba(0, 0, 0, 0.6); }
 
 .overlay-grid-container {
-  position: relative;
+  /*position: relative;*/
   min-height: 30vh;
   max-height: 50vh;
   overflow-y: auto;
+  overflow-x: hidden;
   width: 99%;
   padding-top: 18px; }
 

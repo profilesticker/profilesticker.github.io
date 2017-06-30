@@ -3,42 +3,67 @@
     {
       "id": "fi-1",
       "text": "",
-      "image": "../images/featured/allef-vinicius.jpg"
+      "image": "ps-fblike.jpg"
     },
     {
       "id": "fi-2",
       "text": "",
-      "image": "../images/featured/andrew-branch.jpg"
+      "image": "ps-attention.jpg"
+    },
+    {
+      "id": "fi-14",
+      "text": "",
+      "image": "ps-friends.jpg"
     },
     {
       "id": "fi-3",
       "text": "",
-      "image": "../images/featured/brooke-cagle.jpg"
+      "image": "ps-kissmequick.jpg"
     },
     {
       "id": "fi-4",
       "text": "",
-      "image": "../images/featured/joshua-peacock.jpg"
+      "image": "ps-hbd.jpg"
     },
     {
       "id": "fi-5",
       "text": "",
-      "image": "../images/featured/sharon-christina.jpg"
+      "image": "ps-hungry.jpg"
+    },
+    {
+      "id": "fi-9",
+      "text": "",
+      "image": "ps-bbt.jpg"
     },
     {
       "id": "fi-6",
       "text": "",
-      "image": "../images/featured/priscilla-du-preez.jpg"
+      "image": "ps-feelingrich.jpg"
+    },
+    {
+      "id": "fi-10",
+      "text": "",
+      "image": "ps-cancer.jpg"
     },
     {
       "id": "fi-7",
       "text": "",
-      "image": "../images/featured/vinicius-amano.jpg"
+      "image": "ps-pacman.jpg"
     },
     {
       "id": "fi-8",
       "text": "",
-      "image": "../images/featured/william-stitt.jpg"
+      "image": "ps-tomatino.jpg"
+    },
+    {
+      "id": "fi-11",
+      "text": "",
+      "image": "ps-itsaboy.jpg"
+    },
+    {
+      "id": "fi-12",
+      "text": "",
+      "image": "ps-throwthu.jpg"
     }
   ]
 }

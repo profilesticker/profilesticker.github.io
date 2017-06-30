@@ -290,6 +290,8 @@ function switchToHomePage() {
     /// <summary>Method to load the home page.</summary>
     if (getCurrentPageView() != "home" && appSettings.websiteReleased) {
         switchTemplate("home");
+        setHdnSelectedCategory(0);
+        setHdnSelectedOverlay("");
         sendInteractionEventTracking("Profile Sticker logo", "Navigate to the home page view");
     }
     else {
@@ -315,7 +317,7 @@ function goBack() {
         switchTemplate(templateNames.overlay);
     }
     else {
-        switchTemplate(templateNames.home);
+        switchTemplate(templateNames.home);       
     }
 }
 

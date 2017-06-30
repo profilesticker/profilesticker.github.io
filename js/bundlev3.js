@@ -680,8 +680,10 @@ var appSettings = {
 
 // Collection of different messages
 var facebookMessages = [
-    "This fantastic sticker was created at ",
+    "Use Profile Sticker to create an amazing profile picture at ",
+    "Add a sticker to your profile picture in just 4 steps at ",
     "Add an amazing sticker to your profile picture using Profile Sticker at ",
+    "Choose from over a 100 stickers for your profile picture using Profile Sticker at ",
     "Create a fabulous profile picture using Profile Sticker ",
 ];
 
@@ -1078,25 +1080,25 @@ function getContributorsData(contributorsId) {
 
 function initializeFacebook() {
     /// <summary>Initialises Facebook JS SDK on the page.</summary>
+    
+    (function (d) {
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement('script'); js.id = id; js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '653803501477017',
+            cookie: true,
+            xfbml: true,
+            version: 'v2.8'
+        });
+    };
+   
     /*
-    //(function (d) {
-    //    var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-    //    if (d.getElementById(id)) { return; }
-    //    js = d.createElement('script'); js.id = id; js.async = true;
-    //    js.src = "//connect.facebook.net/en_US/all.js";
-    //    ref.parentNode.insertBefore(js, ref);
-    //}(document));
-
-    //window.fbAsyncInit = function () {
-    //    FB.init({
-    //        appId: '' + appSettings.fbAppId,
-    //        cookie: true,
-    //        xfbml: true,
-    //        version: 'v2.8'
-    //    });
-    //};
-    */
-
     (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) { return; }
@@ -1107,16 +1109,17 @@ function initializeFacebook() {
 
     window.fbAsyncInit = function () {
         FB.init({
-            appId: '' + appSettings.fbAppId,
+            appId: '1932663840336823',
             cookie: true,
             xfbml: true,
-            version: 'v2.9'
+            version: 'v2.8'
         });
         FB.AppEvents.logPageView();
     };
-
+    */
 
 }
+
 
 function facebookLogin(callback) {
     /// <summary>Method that handles Facebook login and calls back the passed method with required parameters.</summary>
@@ -1125,12 +1128,12 @@ function facebookLogin(callback) {
         FB.login(function (response) {
             showToast("info", "Logged in to Facebook.", false);
             var _loginFacebookResponse = {
-                userPicture: "https://graph.facebook.com/" + authResponse.userID + "/picture?width=960",
+                userPicture: "https://graph.facebook.com/" + response.authResponse.userID + "/picture?width=960",
                 userToken: response.authResponse.accessToken
             };
             // Callback the method
             callback(_loginFacebookResponse);
-        }, { scope: 'email, user_photos,  publish_actions' });
+        }, { scope: 'email, user_photos, publish_actions' });
     }
     catch (err) {
         console.log("Error: " + err.message);
@@ -2005,6 +2008,8 @@ function switchToHomePage() {
     /// <summary>Method to load the home page.</summary>
     if (getCurrentPageView() != "home" && appSettings.websiteReleased) {
         switchTemplate("home");
+        setHdnSelectedCategory(0);
+        setHdnSelectedOverlay("");
         sendInteractionEventTracking("Profile Sticker logo", "Navigate to the home page view");
     }
     else {
@@ -2030,7 +2035,7 @@ function goBack() {
         switchTemplate(templateNames.overlay);
     }
     else {
-        switchTemplate(templateNames.home);
+        switchTemplate(templateNames.home);       
     }
 }
 

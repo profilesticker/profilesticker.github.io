@@ -28,8 +28,10 @@ var appSettings = {
 
 // Collection of different messages
 var facebookMessages = [
-    "This fantastic sticker was created at ",
+    "Use Profile Sticker to create an amazing profile picture at ",
+    "Add a sticker to your profile picture in just 4 steps at ",
     "Add an amazing sticker to your profile picture using Profile Sticker at ",
+    "Choose from over a 100 stickers for your profile picture using Profile Sticker at ",
     "Create a fabulous profile picture using Profile Sticker ",
 ];
 

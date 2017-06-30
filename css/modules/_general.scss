@@ -112,12 +112,15 @@ img{
 .sticker-image {
     max-width: 150px;
     cursor: pointer;
-    @extend .off-focus-light;
+    /*@extend .off-focus-light;*/
     @extend .transition-all;
+    outline: 0;
 }
 
 .sticker-image:hover, .sticker-image:focus{
-    @extend .off-focus-dark;
+    outline: 1px solid $dark-color;
+    outline-offset: 2px;
+    outline-style: dotted;
 }
 
 .sticker-image-over {
@@ -149,10 +152,11 @@ img{
 }
 
 .overlay-grid-container {
-    position: relative;
+    /*position: relative;*/
     min-height: 30vh;
     max-height: 50vh;
     overflow-y: auto;
+    overflow-x: hidden;
     width:99%;
     padding-top:18px;
 }
