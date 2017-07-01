@@ -49,6 +49,13 @@ function getEncodedURI(uri) {
     return encodeURI(uri);
 }
 
+function clickInGridAdvt(redirectLink) {
+    /// <summary>Method to that tracks the social media icon clicks.</summary>
+    /// <param name="platform" type="string">The social media platform.</param> 
+    console.log(redirectLink)
+    sendAdvertisementEventTracking(redirectLink, "Sticker grid");
+}
+
 // Start here
 $(document).ready(function () {
 
