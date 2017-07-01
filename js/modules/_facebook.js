@@ -104,6 +104,7 @@ function postImageToFacebook() {
                 _postNewPicture(_facebookResponse);
             } else if (response.status === 'not_authorized') {
                 showErrorToast(errorCodes.fbNotAuth, [""]);
+                facebookLogin(_postNewPicture);
             } else {
                 facebookLogin(_postNewPicture);
             }
@@ -155,6 +156,7 @@ function _postNewPicture(facebookResponseObject) {
     fd.append("source", blob);
     fd.append("message", generateRandomMessage());
     try {
+        showToast("info", "Posting your picture to Facebook...", false);
         $.ajax({
             url: "https://graph.facebook.com/me/photos?access_token=" + facebookResponseObject.userToken,
             type: "POST",
@@ -167,8 +169,6 @@ function _postNewPicture(facebookResponseObject) {
             },
             error: function (shr, status, data) {
                 showErrorToast(errorCodes.fbPostPicture, [""]);
-            },
-            complete: function () {
             }
         });
     } catch (e) {

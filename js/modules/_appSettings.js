@@ -38,7 +38,7 @@ var facebookMessages = [
 function generateRandomMessage() {
     /// <summary>Method to get a random message to post on Facebook along with the profile sticker generated image.</summary>
     var x = Math.floor((Math.random() * facebookMessages.length) + 1);
-    return facebookMessages[x - 1] + "" + window.location.href.toString();
+    return facebookMessages[x - 1] + "" + window.location.href.toString() + " #profilesticker #featureme";
 }
 
 

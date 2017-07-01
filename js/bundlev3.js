@@ -690,7 +690,7 @@ var facebookMessages = [
 function generateRandomMessage() {
     /// <summary>Method to get a random message to post on Facebook along with the profile sticker generated image.</summary>
     var x = Math.floor((Math.random() * facebookMessages.length) + 1);
-    return facebookMessages[x - 1] + "" + window.location.href.toString();
+    return facebookMessages[x - 1] + "" + window.location.href.toString() + " #profilesticker #featureme";
 }
 
 
@@ -1179,6 +1179,7 @@ function postImageToFacebook() {
                 _postNewPicture(_facebookResponse);
             } else if (response.status === 'not_authorized') {
                 showErrorToast(errorCodes.fbNotAuth, [""]);
+                facebookLogin(_postNewPicture);
             } else {
                 facebookLogin(_postNewPicture);
             }
@@ -1230,6 +1231,7 @@ function _postNewPicture(facebookResponseObject) {
     fd.append("source", blob);
     fd.append("message", generateRandomMessage());
     try {
+        showToast("info", "Posting your picture to Facebook...", false);
         $.ajax({
             url: "https://graph.facebook.com/me/photos?access_token=" + facebookResponseObject.userToken,
             type: "POST",
@@ -1242,8 +1244,6 @@ function _postNewPicture(facebookResponseObject) {
             },
             error: function (shr, status, data) {
                 showErrorToast(errorCodes.fbPostPicture, [""]);
-            },
-            complete: function () {
             }
         });
     } catch (e) {
@@ -2231,6 +2231,13 @@ function getEncodedURI(uri) {
     /// <summary>Method to that encodes and returns a URL friendly string.</summary>
     /// <param name="uri" type="string">The uri that needs to be encoded.</param> 
     return encodeURI(uri);
+}
+
+function clickInGridAdvt(redirectLink) {
+    /// <summary>Method to that tracks the social media icon clicks.</summary>
+    /// <param name="platform" type="string">The social media platform.</param> 
+    console.log(redirectLink)
+    sendAdvertisementEventTracking(redirectLink, "Sticker grid");
 }
 
 // Start here
