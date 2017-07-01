@@ -51,7 +51,6 @@ function facebookLogin(callback) {
     /// <param name="callback" type="method">The method to callback.</param> 
     try {
         FB.login(function (response) {
-            console.log(response);
             if (response.status === 'connected'){
                 var _loginFacebookResponse = {
                     userPicture: "https://graph.facebook.com/" + response.authResponse.userID + "/picture?width=960",
