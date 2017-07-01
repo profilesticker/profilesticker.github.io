@@ -673,7 +673,7 @@ var appSettings = {
     categoriesBreakpointXLg: 2100,
     categoriesBreakpointXLgValue: 10,
     maxHomePageClicks: 3,
-    websiteReleased: false,
+    websiteReleased: true,
     randomStringLength: 6,
     fbAppId: 653803501477017
 };
@@ -1126,14 +1126,20 @@ function facebookLogin(callback) {
     /// <param name="callback" type="method">The method to callback.</param> 
     try {
         FB.login(function (response) {
-            showToast("info", "Logged in to Facebook.", false);
-            var _loginFacebookResponse = {
-                userPicture: "https://graph.facebook.com/" + response.authResponse.userID + "/picture?width=960",
-                userToken: response.authResponse.accessToken
-            };
-            // Callback the method
-            callback(_loginFacebookResponse);
-        }, { scope: 'email, user_photos, publish_actions' });
+            console.log(response);
+            if (response.status === 'connected'){
+                var _loginFacebookResponse = {
+                    userPicture: "https://graph.facebook.com/" + response.authResponse.userID + "/picture?width=960",
+                    userToken: response.authResponse.accessToken
+                };
+                showToast("info", "Logged in to Facebook.", false);
+                // Callback the method
+                callback(_loginFacebookResponse);
+            }
+            else {
+                showErrorToast(errorCodes.fbNoLogin, [""]);
+            }
+        }, { scope: 'email, user_photos, publish_actions', auth_type: 'reauthenticate' });
     }
     catch (err) {
         console.log("Error: " + err.message);
@@ -1153,6 +1159,7 @@ function getImageFromFacebook() {
                 _drawFacebookPictureToGlobalCanvas(_facebookResponseObject);
             } else if (response.status === 'not_authorized') {
                 showErrorToast(errorCodes.fbNotAuth, [""]);
+                facebookLogin(_drawFacebookPictureToGlobalCanvas);
             } else {
                 facebookLogin(_drawFacebookPictureToGlobalCanvas);
             }
@@ -1295,7 +1302,7 @@ function showErrorToast(errorCode, additionalParams) {
         message = "You may upload an image of a maximum size of 5 Mb only.";
     }
     else if (errorCode == errorCodes.fbNotAuth) {
-        message = "You have not authorized this app to allow access to your profile.";
+        message = "You have not authorized this app to allow access to your profile. Will try logging you back in and see if this works.";
     }
     else if (errorCode == errorCodes.fbNoLogin) {
         message = "Unable to log you in to Facebook at the moment."

@@ -27,7 +27,7 @@ function showErrorToast(errorCode, additionalParams) {
         message = "You may upload an image of a maximum size of 5 Mb only.";
     }
     else if (errorCode == errorCodes.fbNotAuth) {
-        message = "You have not authorized this app to allow access to your profile.";
+        message = "You have not authorized this app to allow access to your profile. Will try logging you back in and see if this works.";
     }
     else if (errorCode == errorCodes.fbNoLogin) {
         message = "Unable to log you in to Facebook at the moment."
