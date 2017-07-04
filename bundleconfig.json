@@ -1,6 +1,6 @@
-
+[
   {
-    "outputFileName": "js/bundlev3.js",
+    "outputFileName": "js/bundlev4.js",
     "inputFiles": [
       "js/vendor/jquery-1.10.2.min.js",
       "js/vendor/mustache.js",
