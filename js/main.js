@@ -50,8 +50,8 @@ function getEncodedURI(uri) {
 }
 
 function clickInGridAdvt(redirectLink) {
-    /// <summary>Method to that tracks the social media icon clicks.</summary>
-    /// <param name="platform" type="string">The social media platform.</param> 
+    /// <summary>Method to that tracks advertisement clicks.</summary>
+    /// <param name="redirectLink" type="string">The URL of the advertiser.</param> 
     console.log(redirectLink)
     sendAdvertisementEventTracking(redirectLink, "Sticker grid");
 }

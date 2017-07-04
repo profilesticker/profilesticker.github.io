@@ -154,7 +154,7 @@ function _postNewPicture(facebookResponseObject) {
     var fd = new FormData();
     fd.append("access_token", facebookResponseObject.userToken);
     fd.append("source", blob);
-    fd.append("message", generateRandomMessage());
+    fd.append("message", "");
     try {
         showToast("info", "Posting your picture to Facebook...", false);
         $.ajax({
