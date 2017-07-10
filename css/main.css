@@ -5967,10 +5967,12 @@ h1, h2, h3,
   width: 62px;
   cursor: pointer; }
 
-.page-heading p {
+.page-heading h1 {
   padding: 18px 0;
   font-size: 20px;
-  font-family: "Coming Soon", cursive, serif; }
+  font-family: "Coming Soon", cursive, serif;
+  margin-top: 0;
+  margin-bottom: 16px; }
 
 .page-heading .social-media {
   cursor: pointer;
@@ -6475,8 +6477,6 @@ h1, h2, h3,
     padding-bottom: 50px; }
   body {
     font-size: 14px; }
-  .page-heading h1 {
-    font-size: 24px; }
   /* footer */
   .page-footer {
     position: initial; }
