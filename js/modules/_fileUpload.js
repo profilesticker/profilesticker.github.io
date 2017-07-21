@@ -42,10 +42,10 @@ function transferToCropCanvas() {
         cropper = new Cropper(image, {
             aspectRatio: 1,
             viewMode: 1,
-            movable: false,
-            zoomable: false,
-            rotatable: false,
-            scalable: false,
+            movable: true,
+            zoomable: true,
+            rotatable: true,
+            scalable: true,
             ready: function () {
                 croppable = true;
                 document.getElementById('cropButton').disabled = false;
