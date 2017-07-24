@@ -6402,6 +6402,24 @@ img {
   margin: 9px; }
 
 /*
+ **************************
+ **  Blurb Page **
+ **************************
+ */
+.blurb-footer {
+  margin: 9px 0; }
+
+.blurb-footer .social-media {
+  margin: 9px; }
+
+.blurb-page h3 {
+  color: #fdbe14;
+  font-weight: 700; }
+
+.blurb-page.blurb-faq h3 {
+  cursor: pointer; }
+
+/*
  * colors must contain color variable and general site wide
  * color configurations
  */

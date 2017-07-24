@@ -390,3 +390,28 @@ img{
     font-size: small;
     margin: 9px;
 }
+
+
+/*
+ **************************
+ **  Blurb Page **
+ **************************
+ */
+
+.blurb-footer{
+    margin: 9px 0;
+}
+
+.blurb-footer .social-media{
+    margin: 9px;
+}
+
+.blurb-page h3{
+     color: $medium-color;
+     font-weight:700;
+
+ }
+
+.blurb-page.blurb-faq h3{
+    cursor: pointer;
+}
