@@ -242,14 +242,18 @@ img{
     font-weight: 700;
 }
 
-.modal-scrollable-body a, .modal-scrollable-body a:active, .modal-scrollable-body a:visited{
+.modal-scrollable-body a, .modal-scrollable-body a:active, .modal-scrollable-body a:visited,
+.blurb-page a, .blurb-page a:active, .blurb-page a:visited{
     color: dodgerblue;
 }
 
-.modal-scrollable-body a:hover, .modal-scrollable-body a:focus{
+.modal-scrollable-body a:hover, .modal-scrollable-body a:focus,
+.blurb-page a:hover, .blurb-page a:focus{
     color: $dark-gray;
 }
 
+.blurb-page .social-media,
+.blurb-page .social-media a,
 .modal-scrollable-body .social-media .mdi-facebook-box, 
 .modal-scrollable-body .social-media .mdi-twitter,
 .modal-scrollable-body .social-media .mdi-google-plus,
@@ -260,6 +264,7 @@ img{
     @extend .transition-all;
 }
 
+.blurb-page .social-media,
 .modal-scrollable-body .social-media .mdi-facebook-box:hover,
 .modal-scrollable-body .social-media .mdi-facebook-box:focus{
     color: #3b5998;

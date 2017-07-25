@@ -5715,7 +5715,9 @@ h1, h2, h3,
 .transition-all, .general-button, .general-button:hover, .general-button:focus, .link-button, .link-button-simple, .link-button-simple:active, .link-button-simple:visited, .link-button:active, .link-button:visited, .button, .button-simple, .button-simple:active, .button-simple:visited, .button:active, .button:visited, .button-inverse, .button-inverse:active, .button-inverse:visited, .button-transparent, .button-transparent:active, .button-transparent:visited, .facebook-button, .facebook-button:active, .facebook-button:visited, .general-button:active, .general-button:visited, a, a:active, a:visited, .page-heading .social-media .mdi-facebook-box,
 .page-heading .social-media .mdi-twitter,
 .page-heading .social-media .mdi-google-plus,
-.page-heading .social-media .mdi-linkedin-box, .page-footer a i, .blur-canvas, .sticker-image, .modal-scrollable-body .social-media .mdi-facebook-box,
+.page-heading .social-media .mdi-linkedin-box, .page-footer a i, .blur-canvas, .sticker-image, .blurb-page .social-media,
+.blurb-page .social-media a,
+.modal-scrollable-body .social-media .mdi-facebook-box,
 .modal-scrollable-body .social-media .mdi-twitter,
 .modal-scrollable-body .social-media .mdi-google-plus,
 .modal-scrollable-body .social-media .mdi-linkedin-box,
@@ -5774,7 +5776,9 @@ h1, h2, h3,
 .transition-all, .general-button, .general-button:hover, .general-button:focus, .link-button, .link-button-simple, .link-button-simple:active, .link-button-simple:visited, .link-button:active, .link-button:visited, .button, .button-simple, .button-simple:active, .button-simple:visited, .button:active, .button:visited, .button-inverse, .button-inverse:active, .button-inverse:visited, .button-transparent, .button-transparent:active, .button-transparent:visited, .facebook-button, .facebook-button:active, .facebook-button:visited, .general-button:active, .general-button:visited, a, a:active, a:visited, .page-heading .social-media .mdi-facebook-box,
 .page-heading .social-media .mdi-twitter,
 .page-heading .social-media .mdi-google-plus,
-.page-heading .social-media .mdi-linkedin-box, .page-footer a i, .blur-canvas, .sticker-image, .modal-scrollable-body .social-media .mdi-facebook-box,
+.page-heading .social-media .mdi-linkedin-box, .page-footer a i, .blur-canvas, .sticker-image, .blurb-page .social-media,
+.blurb-page .social-media a,
+.modal-scrollable-body .social-media .mdi-facebook-box,
 .modal-scrollable-body .social-media .mdi-twitter,
 .modal-scrollable-body .social-media .mdi-google-plus,
 .modal-scrollable-body .social-media .mdi-linkedin-box,
@@ -6280,12 +6284,16 @@ img {
 .modal-scrollable-body h4 {
   font-weight: 700; }
 
-.modal-scrollable-body a, .modal-scrollable-body a:active, .modal-scrollable-body a:visited {
+.modal-scrollable-body a, .modal-scrollable-body a:active, .modal-scrollable-body a:visited,
+.blurb-page a, .blurb-page a:active, .blurb-page a:visited {
   color: dodgerblue; }
 
-.modal-scrollable-body a:hover, .modal-scrollable-body a:focus {
+.modal-scrollable-body a:hover, .modal-scrollable-body a:focus,
+.blurb-page a:hover, .blurb-page a:focus {
   color: #484848; }
 
+.blurb-page .social-media,
+.blurb-page .social-media a,
 .modal-scrollable-body .social-media .mdi-facebook-box,
 .modal-scrollable-body .social-media .mdi-twitter,
 .modal-scrollable-body .social-media .mdi-google-plus,
@@ -6294,6 +6302,7 @@ img {
 .modal-scrollable-body .social-media .mdi-instagram {
   color: #626262; }
 
+.blurb-page .social-media,
 .modal-scrollable-body .social-media .mdi-facebook-box:hover,
 .modal-scrollable-body .social-media .mdi-facebook-box:focus {
   color: #3b5998; }
@@ -6547,7 +6556,11 @@ h1, h2, h3,
     width: 36px; }
   /**/
   .coming-soon .block {
-    margin: 2px; } }
+    margin: 2px; }
+  /*Blurb Page*/
+  .blurb-page.blurb-faq h3 {
+    font-size: 16px;
+    line-height: 22px; } }
 
 @media (max-width: 367px) {
   .sticker-block {
