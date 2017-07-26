@@ -6416,7 +6416,7 @@ img {
  **************************
  */
 .blurb-footer {
-  margin: 9px 0; }
+  margin: 18px 0; }
 
 .blurb-footer .social-media {
   margin: 9px; }
@@ -6427,6 +6427,14 @@ img {
 
 .blurb-page.blurb-faq h3 {
   cursor: pointer; }
+
+.blurb-footer .footer-links a {
+  margin: 9px;
+  font-size: 90%;
+  color: #484848; }
+
+.blurb-footer .footer-links {
+  margin: 9px 0; }
 
 /*
  * colors must contain color variable and general site wide
