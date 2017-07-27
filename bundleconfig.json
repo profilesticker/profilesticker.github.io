@@ -19,7 +19,16 @@
       "js/modules/_overlayer.js",
       "js/modules/_download.js",
       "js/modules/_templating.js",
+      "js/modules/_common.js",
       "js/main.js"
+    ]
+  },
+  {
+    "outputFileName": "js/bundleLitev2.js",
+    "inputFiles": [
+      "js/modules/_analytics.js",
+      "js/modules/_common.js",
+      "js/mainLite.js"
     ]
   }
 ]
