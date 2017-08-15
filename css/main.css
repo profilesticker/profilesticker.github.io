@@ -6437,6 +6437,75 @@ img {
   margin: 9px 0; }
 
 /*
+ **************************
+ **  Yoobee **
+ **************************
+ */
+.yoobee-page {
+  overflow-x: hidden; }
+
+.page-heading img.yoobee-logo {
+  width: 130px;
+  margin-left: 18px; }
+
+.why-contribute {
+  width: 60px;
+  margin: 18px 2px; }
+
+.blurb-page.yoobee-page {
+  overflow-x: hidden; }
+
+.yoobee-page .contrast-row {
+  padding: 150px 15px; }
+
+.yoobee-page .button, .yoobee-page .button-simple {
+  margin-top: 9px; }
+
+.yoobee-page h2 {
+  font-size: 6vh; }
+
+.yoobee-page h1 {
+  font-size: 7vh; }
+
+.yoobee-page .contrast-row .flame-man img {
+  position: absolute;
+  width: 277px;
+  margin-top: -178px;
+  margin-left: -184px;
+  z-index: 2; }
+
+.yoobee-page .noncontrast-row {
+  border-top-color: transparent;
+  margin: 32px 0;
+  padding: 0;
+  background-color: #fdcc47;
+  /*background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 33px 6px, 0px 36px, 4px 2px, 29px 6px, 33px 30px;
+    background-image: linear-gradient(335deg, #f1f1f1 23px, transparent 23px), linear-gradient(155deg, #f1f1f1 23px, transparent 23px), linear-gradient(335deg, #f1f1f1 23px, transparent 23px), linear-gradient(155deg, #f1f1f1 23px, transparent 23px), linear-gradient(335deg, #f1f1f1 10px, transparent 10px), linear-gradient(155deg, #f1f1f1 10px, transparent 10px), linear-gradient(335deg, #f1f1f1 10px, transparent 10px), linear-gradient(155deg, #f1f1f1 10px, transparent 10px);*/ }
+
+.yoobee-page .noncontrast-row .thumbnail-image {
+  background: url("../images/psassets/profilestickersbanner.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.yoobee-page .noncontrast-row div {
+  /*padding: 32px 0;*/ }
+
+.block-main {
+  min-height: 275px;
+  padding: 20px;
+  vertical-align: top; }
+
+.block-left, .block-right {
+  display: inline-block;
+  width: 48%; }
+
+.block-right {
+  margin-left: 9px; }
+
+/*
  * colors must contain color variable and general site wide
  * color configurations
  */
@@ -6568,20 +6637,46 @@ h1, h2, h3,
   /*Blurb Page*/
   .blurb-page.blurb-faq h3 {
     font-size: 16px;
-    line-height: 22px; } }
+    line-height: 22px; }
+  /* Yoobee */
+  .yoobee-page .page-heading div.text-left {
+    margin-bottom: 18px; }
+  .yoobee-page .contrast-row {
+    padding: 80px 15px; }
+  .yoobee-page .contrast-row .flame-man img {
+    width: 310px;
+    margin-top: 59px;
+    margin-left: -104px; }
+  .yoobee-page .block-left, .yoobee-page .block-right {
+    display: block;
+    width: 100%; } }
 
 @media (max-width: 367px) {
   .sticker-block {
     width: 47%; }
   .sticker-image {
-    max-width: 100px; } }
+    max-width: 100px; }
+  .yoobee-page .block-left, .yoobee-page .block-right {
+    display: block;
+    width: 100%; }
+  .yoobee-page .contrast-row .flame-man img {
+    width: 240px;
+    margin-top: 60px;
+    margin-left: -145px; } }
 
 /**/
 @media (min-width: 368px) and (max-width: 543px) {
   .sticker-block {
     width: 31%; }
   .sticker-image {
-    max-width: 96px; } }
+    max-width: 96px; }
+  .yoobee-page .block-left, .yoobee-page .block-right {
+    display: block;
+    width: 100%; }
+  .yoobee-page .contrast-row .flame-man img {
+    width: 263px;
+    margin-top: -92px;
+    margin-left: -146px; } }
 
 /*
  ******** 
@@ -6594,7 +6689,12 @@ h1, h2, h3,
   .sticker-block {
     width: 24%; }
   .sticker-image {
-    max-width: 140px; } }
+    max-width: 140px; }
+  .yoobee-page .block-left, .yoobee-page .block-right {
+    display: block;
+    width: 100%; }
+  .yoobee-page .contrast-row .flame-man img {
+    margin-top: -150px; } }
 
 /*
  ******** 

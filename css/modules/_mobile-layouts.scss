@@ -36,7 +36,7 @@
         margin-top: 9px;
     }
 
-    .page-footer .row div:nth-child(2){
+    .page-footer .row div:nth-child(2) {
         text-align: left;
     }
 
@@ -113,10 +113,30 @@
         margin: 2px;
     }
 
-    /*Blurb Page*/    
-    .blurb-page.blurb-faq h3{
+    /*Blurb Page*/
+    .blurb-page.blurb-faq h3 {
         font-size: 16px;
         line-height: 22px;
+    }
+
+    /* Yoobee */
+    .yoobee-page .page-heading div.text-left{
+        margin-bottom: 18px;
+    }
+
+    .yoobee-page .contrast-row {
+        padding: 80px 15px;
+    }
+
+    .yoobee-page .contrast-row .flame-man img {
+        width: 310px;
+        margin-top: 59px;
+        margin-left: -104px;
+    }
+
+    .yoobee-page .block-left, .yoobee-page .block-right {
+        display: block;
+        width: 100%;
     }
 }
 
@@ -128,6 +148,17 @@
     .sticker-image {
         max-width: 100px;
     }
+
+    .yoobee-page .block-left, .yoobee-page .block-right {
+        display: block;
+        width: 100%;
+    }
+
+    .yoobee-page .contrast-row .flame-man img {
+        width: 240px; //310px;
+        margin-top: 60px;
+        margin-left: -145px;
+    }
 }
 /**/
 @media (min-width: 368px) and (max-width: 543px) {
@@ -137,6 +168,17 @@
 
     .sticker-image {
         max-width: 96px;
+    }
+
+    .yoobee-page .block-left, .yoobee-page .block-right {
+        display: block;
+        width: 100%;
+    }
+
+    .yoobee-page .contrast-row .flame-man img {
+        width: 263px; //340px;
+        margin-top: -92px;//-88px;
+        margin-left: -146px;
     }
 }
 
@@ -156,6 +198,15 @@
 
     .sticker-image {
         max-width: 140px;
+    }
+
+    .yoobee-page .block-left, .yoobee-page .block-right {
+        display: block;
+        width: 100%;
+    }
+
+    .yoobee-page .contrast-row .flame-man img {
+        margin-top: -150px;
     }
 }
 
