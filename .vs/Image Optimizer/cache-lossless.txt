@@ -18,3 +18,4 @@ F:\Code\ProfileSticker\profilesticker.github.io\images\featured\ps-pacman.jpg|50
 F:\Code\ProfileSticker\profilesticker.github.io\images\psassets\site-teaser.png|166667
 F:\Code\ProfileSticker\profilesticker.github.io\images\psassets\idea-issue-step-2.png|79984
 F:\Code\ProfileSticker\profilesticker.github.io\images\psassets\idea-issue-step-1.png|102994
+F:\Code\ProfileSticker\profilesticker.github.io\images\psassets\yoobeenz-teaser.png|30400
