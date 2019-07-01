@@ -1,8 +1,8 @@
-﻿https://profilesticker.net/
-https://profilesticker.net/about/
-https://profilesticker.net/faq/
-https://profilesticker.net/ideas/
-https://profilesticker.net/issues/
-https://profilesticker.net/credits/
-https://profilesticker.net/contribute/
-https://profilesticker.net/yoobeenz/
+﻿https://profilesticker.github.io/
+https://profilesticker.github.io/about/
+https://profilesticker.github.io/faq/
+https://profilesticker.github.io/ideas/
+https://profilesticker.github.io/issues/
+https://profilesticker.github.io/credits/
+https://profilesticker.github.io/contribute/
+https://profilesticker.github.io/yoobeenz/
