@@ -2197,19 +2197,19 @@ function clickShareSocialMedia(platform) {
     /// <param name="platform" type="string">The social media platform.</param> 
     if (platform == "twitter") {
         sendShareLinkEventTracking('Share on Twitter', 'Top right share button. URL: ' + window.location.href.toString());
-        window.open(getEncodedURI("https://twitter.com/share?text=Add a sticker to your profile picture in just 4 steps @profilesticker&url=http://profilesticker.net"), "_blank");
+        window.open(getEncodedURI("https://twitter.com/share?text=Add a sticker to your profile picture in just 4 steps @profilesticker&url=https://profilesticker.github.io"), "_blank");
     }
     else if (platform == "facebook") {
         sendShareLinkEventTracking('Share on Facebook', 'Top right share button. URL: ' + window.location.href.toString());
-        window.open(getEncodedURI("http://www.facebook.com/sharer.php?t=Add a sticker to your profile picture in just 4 easy steps @profilesticker &u=http://profilesticker.net"), "_blank");
+        window.open(getEncodedURI("http://www.facebook.com/sharer.php?t=Add a sticker to your profile picture in just 4 easy steps @profilesticker &u=https://profilesticker.github.io"), "_blank");
     }
     else if (platform == "google") {
         sendShareLinkEventTracking('Share on Google+', 'Top right share button. URL: ' + window.location.href.toString());
-        window.open(getEncodedURI("https://plus.google.com/share?text=Add a sticker to your profile picture in just 4 easy steps&url=http://profilesticker.net"), "_blank");
+        window.open(getEncodedURI("https://plus.google.com/share?text=Add a sticker to your profile picture in just 4 easy steps&url=https://profilesticker.github.io"), "_blank");
     }
     else {
         sendShareLinkEventTracking('Share on LinkedIn', 'Top right share button. URL: ' + window.location.href.toString());
-        window.open(getEncodedURI("https://www.linkedin.com/cws/share?url=profilesticker.net&original_referer=http://profilesticker.net"), "_blank");
+        window.open(getEncodedURI("https://www.linkedin.com/cws/share?url=profilesticker.github.io&original_referer=https://profilesticker.github.io"), "_blank");
     }
 }
 
